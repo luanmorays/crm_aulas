@@ -18,7 +18,7 @@ class ExampleTest extends TestCase
 
     public function test_nome_tem_mais_que_dez_letras(){
         // Arranje (cria o cenario)
-        $nome='Dona Maria';
+        $nome='Dona Maria da Penha';
         
         // Act (executar o código sob teste)
         $k = strlen($nome);
